@@ -200,6 +200,7 @@ p {
     max-height: 250px;
     margin-bottom: 15px;
     border-radius: 50%;
+    display: cover;
 }
 .consultants .box h2 {
     font-size: 18px;
@@ -395,8 +396,8 @@ p {
         width: 100%;
     }
     .banner h2 {
-        font-size: 60px;
-        padding: 0 50px;
+        font-size: 50px;
+        padding: 0 0px;
     }
     .sec {
         padding: 100px 50px 50px 50px;
