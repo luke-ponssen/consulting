@@ -178,11 +178,20 @@ p {
 /* ------------------- CLIENTS ------------------- */
 .clients {
     background: #674188;
+    padding: 100px;
     min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .clients h3,
 .clients p {
     color: #FFFBF5;
+}
+.clients .content {
+    position: relative;
+    text-align: center;
+    width: 100%;
 }
 .statsBox {
     position: relative;
@@ -190,7 +199,6 @@ p {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
     max-width: 100%;
-    margin-top: 40px;
 }
 .statsBox h2 {
     color: #FFFBF5;
@@ -224,7 +232,7 @@ p {
     border-radius: 25px;
 }
 .consultants .box .iconBx {
-    margin-top: 25px;
+    margin-top: 0px;
 }
 .consultants .box .iconBx img {
     max-width: 250px;
@@ -413,20 +421,26 @@ p {
     }
     .services .box {
         width: 100%;
+        margin: 0 0px;
     }
     .services {
         margin-left: 0px;
         margin-right: 0px;
     }
+    .services .box .iconBx img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+    .clients {
+        margin: 0 0px;
+    }
     .consultants .box {
         width: 100%;
+        margin: 0 0px;
     }
     .consultants {
         margin-left: 0px;
         margin-right: 0px;
-    }
-    .stats {
-        padding-top: 200px;
     }
     .row100 {
         flex-direction: column;
