@@ -157,7 +157,7 @@ p {
     margin: 0 auto;
     background: #fff;
     padding: 20px;
-    box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
 }
 .services .box .iconBx {
     margin-top: 25px;
@@ -190,7 +190,7 @@ p {
     margin: 0 auto;
     background: #fff;
     padding: 20px;
-    box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
 }
 .consultants .box .iconBx {
     margin-top: 25px;
@@ -408,7 +408,10 @@ p {
         margin-left: 0px;
         margin-right: 0px;
     }
-    .consultantBx .person {
+    .consultants .box {
+        width: 100%;
+    }
+    .consultants {
         margin-left: 0px;
         margin-right: 0px;
     }
