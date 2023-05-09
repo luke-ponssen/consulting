@@ -212,11 +212,53 @@ p {
     letter-spacing: 2px;
 }
 
+/* ------------------- CONSULTANTS ------------------- */
+.consultantsBx {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+    max-width: 100%;
+    padding-top: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.consultantsBx .box {
+    width: 300px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    border-radius: 25px;
+}
+.consultantsBx .box .iconBx {
+    margin-top: 0px;
+}
+.consultantsBx .box .iconBx img {
+    max-width: 250px;
+    max-height: 250px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: 6px solid #674188;
+    display: cover;
+}
+.consultantsBx .box h2 {
+    color: #674188;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.consultantsBx .box p {
+    padding-top: 5px;
+    font-size: 18px;
+}
+
 /* ------------------- REVIEWS ------------------- */
 .slide-container h3 {
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 .slide-container{
     max-width: 1520px;
@@ -239,6 +281,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 0px 22px;
 }
 .fivestars {
@@ -316,9 +359,10 @@ p {
 .card-content h3 {
     color: #674188;
     font-size: 22px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     text-transform: uppercase;
     font-weight: 600;
+    text-align: center;
 }
 .card-content p {
     font-size: 18px;
@@ -327,6 +371,7 @@ p {
     font-size: 14px;
     color: #707070;
     text-align: center;
+    height: 190px;
 }
 .button{
     border: none;
@@ -377,48 +422,9 @@ p {
     .swiper-navBtn{
         display: none;
     }
-}
-
-/* ------------------- CONSULTANTS ------------------- */
-.consultantsBx {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 30px;
-    max-width: 100%;
-    padding-top: 40px;
-    padding-left: 150px;
-    padding-right: 150px;
-}
-.consultantsBx .box {
-    width: 300px;
-    margin: 0 auto;
-    background: #fff;
-    padding: 20px;
-    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
-    border-radius: 25px;
-}
-.consultantsBx .box .iconBx {
-    margin-top: 0px;
-}
-.consultantsBx .box .iconBx img {
-    max-width: 250px;
-    max-height: 250px;
-    margin-bottom: 15px;
-    border-radius: 50%;
-    border: 6px solid #674188;
-    display: cover;
-}
-.consultantsBx .box h2 {
-    color: #674188;
-    font-size: 15px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-.consultantsBx .box p {
-    padding-top: 5px;
-    font-size: 18px;
+    .description{
+        height: 290px;
+    }
 }
 
 /* ------------------- CONTACT US ------------------- */
@@ -601,8 +607,10 @@ p {
         margin: 0 0px;
     }
     .services {
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .services .box .iconBx img {
         max-width: 200px;
@@ -610,14 +618,17 @@ p {
     }
     .clients {
         margin: 0 0px;
+        padding: 30px 0px;
     }
     .consultants .box {
         width: 100%;
         margin: 0 0px;
     }
-    .consultants {
+    .consultantsBx {
         margin-left: 0px;
         margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .row100 {
         flex-direction: column;
