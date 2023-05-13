@@ -253,6 +253,17 @@ p {
 .consultantsBx .box p {
     padding-top: 5px;
     font-size: 18px;
+    margin-top: -70px;
+}
+.consultantsBx .box:hover p {
+    visibility: hidden;
+}
+.consultantsBx .box:hover {
+    background-color: #000;
+}
+.consultantsBx .box h3 {
+    color: #fff;
+    font-size: 18px;
 }
 
 /* ------------------- REVIEWS ------------------- */
